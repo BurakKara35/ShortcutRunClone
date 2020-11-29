@@ -4137,9 +4137,5 @@ PrefabInstance:
       propertyPath: finisTransform
       value: 
       objectReference: {fileID: 1639694043}
-    - target: {fileID: 7833954541740805238, guid: a6aa42c1cfe4dda4790bac490d9c0381, type: 3}
-      propertyPath: turnSpeed
-      value: 150
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6aa42c1cfe4dda4790bac490d9c0381, type: 3}
