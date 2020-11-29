@@ -21,7 +21,7 @@ public class CharacterController : MonoBehaviour
     private Transform lastFinalIslandPassed;
     private int finalIslandMultiplier;
 
-    private float swipingInSeconds = 0.2f;
+    private float swipingInSeconds = 0.1f;
 
     private void Awake()
     {
