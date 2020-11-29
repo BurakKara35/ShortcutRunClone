@@ -1806,7 +1806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 75
-  turnSpeed: 45
+  turnSpeed: 60
   jumpSpeed: 5
 --- !u!114 &7833954541740805239
 MonoBehaviour:
