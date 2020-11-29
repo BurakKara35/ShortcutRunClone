@@ -25,14 +25,11 @@ public class UIController : MonoBehaviour
     private void Awake()
     {
         pointText.gameObject.SetActive(false);
+        pointTextStartingY = pointText.transform.position.y;
+
         pointTextStartingAlpha = pointText.GetComponent<Text>().color.a;
 
         pointAnimator = pointText.gameObject.GetComponent<Animator>();
-    }
-
-    private void Start()
-    {
-        pointTextStartingY = pointText.transform.position.y;
     }
 
     public void DisplayPoint(int point)
